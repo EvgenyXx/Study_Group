@@ -1,9 +1,8 @@
 package com.evgenypavlov.spring.model.service;
 
-import com.evgenypavlov.spring.model.data.Student;
-import com.evgenypavlov.spring.model.data.StudentComparator;
-import com.evgenypavlov.spring.model.data.StudentGroupIterator;
-import com.evgenypavlov.spring.model.data.StudyGroup;
+import com.evgenypavlov.spring.model.data.student.Student;
+import com.evgenypavlov.spring.model.data.UserComparator;
+import com.evgenypavlov.spring.model.data.student.StudyGroup;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,7 +33,11 @@ public class StudentGroupService {
 
     public List<Student>sortStudentByFIO(){
         List<Student>studentList = new ArrayList<>(studyGroup.getStudentList());
-        studentList.sort(new StudentComparator());
+        studentList.sort(new UserComparator<Student>());
       return studentList;
+    }
+
+    public void crateStudent (String firstName,String lastName,String middleName){
+        studyGroup.crateStudent(firstName,lastName,middleName);
     }
 }

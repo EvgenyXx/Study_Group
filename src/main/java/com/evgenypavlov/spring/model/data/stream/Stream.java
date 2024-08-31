@@ -1,4 +1,6 @@
-package com.evgenypavlov.spring.model.data;
+package com.evgenypavlov.spring.model.data.stream;
+
+import com.evgenypavlov.spring.model.data.student.StudyGroup;
 
 import java.util.ArrayList;
 import java.util.Iterator;
