@@ -1,8 +1,8 @@
 package com.evgenypavlov.spring.model.service;
 
-import com.evgenypavlov.spring.model.data.StreamComparator;
-import com.evgenypavlov.spring.model.data.StudyGroup;
-import com.evgenypavlov.spring.model.data.Stream;
+import com.evgenypavlov.spring.model.data.stream.StreamComparator;
+import com.evgenypavlov.spring.model.data.student.StudyGroup;
+import com.evgenypavlov.spring.model.data.stream.Stream;
 
 import java.util.ArrayList;
 import java.util.List;

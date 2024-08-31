@@ -1,20 +1,12 @@
-package com.evgenypavlov.spring.model;
+package com.evgenypavlov.spring.model.data;
 
-import java.time.LocalDate;
+public abstract class User  {
 
-public abstract class User implements Comparable<User> {
-     private int id;
      private String firstName;
      private String lastName;
      private String middleName;
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getFirstName() {
         return firstName;
@@ -40,8 +32,7 @@ public abstract class User implements Comparable<User> {
         this.middleName = middleName;
     }
 
-    public User(int id, String firstName, String lastName, String middleName) {
-        this.id = id;
+    public User( String firstName, String lastName, String middleName) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
@@ -50,8 +41,7 @@ public abstract class User implements Comparable<User> {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
+                "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", middleName='" + middleName + '\'' +
                 '}';
