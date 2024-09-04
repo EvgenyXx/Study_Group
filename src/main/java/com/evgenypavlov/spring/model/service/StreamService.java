@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StreamService {
-    private final Stream stream = new Stream();
+    private final Stream stream  = new Stream();
+
 
     public List<StudyGroup> compareGroupsCount (){
         List<StudyGroup>studyGroupList = new ArrayList<>(stream.getStudyGroupList());

@@ -18,7 +18,7 @@ public class TeacherGroup implements  Iterable<Teachers>{
       return new TeacherGroupIterator(this);
     }
 
-   public void createTeacher(String firstName,String lastName,String middleName,String lesson){
-        teachersList.add(new Teachers(firstName,lastName,middleName,lesson));
+   public void createTeacher(String firstName,String lastName,String middleName){
+        teachersList.add(new Teachers(firstName,lastName,middleName));
    }
 }

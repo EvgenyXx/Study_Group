@@ -1,7 +1,6 @@
 package com.evgenypavlov.spring.model.service;
 
 import com.evgenypavlov.spring.model.data.UserComparator;
-import com.evgenypavlov.spring.model.data.student.Student;
 import com.evgenypavlov.spring.model.data.teachers.TeacherGroup;
 import com.evgenypavlov.spring.model.data.teachers.Teachers;
 
@@ -18,7 +17,7 @@ public class TeacherService {
             Teachers teachers1 = teachersIterator.next();
             if (teachers1.getFirstName().equals(firstName) &&
                     teachers1.getLastName().equals(lastName ) &&
-                    teachers1.getMiddleName().equals(middleName) && teachers1.getLesson().equals(lesson)){
+                    teachers1.getMiddleName().equals(middleName)){
                 teachersIterator.remove();
             }
         }
@@ -37,8 +36,8 @@ public class TeacherService {
         return teachersList;
     }
 
-    public void crateStudent (String firstName,String lastName,String middleNam,String lesson){
-        teachers.createTeacher(firstName,lastName,middleNam,lesson);
+    public void crateTeacher(String firstName, String lastName, String middleNam){
+        teachers.createTeacher(firstName,lastName,middleNam);
     }
 
 
