@@ -1,7 +1,7 @@
 package com.evgenypavlov.spring.service;
 
 import com.evgenypavlov.spring.model.user.student.Student;
-import com.evgenypavlov.spring.model.user.UserComparator;
+import com.evgenypavlov.spring.model.user.common_nterface.UserComparator;
 import com.evgenypavlov.spring.model.user.student.StudyGroup;
 
 import java.util.ArrayList;

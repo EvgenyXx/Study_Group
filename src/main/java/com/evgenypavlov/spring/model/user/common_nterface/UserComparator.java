@@ -1,4 +1,4 @@
-package com.evgenypavlov.spring.model.user;
+package com.evgenypavlov.spring.model.user.common_nterface;
 
 import java.util.Comparator;
 

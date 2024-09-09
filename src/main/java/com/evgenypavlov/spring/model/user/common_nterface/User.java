@@ -1,6 +1,7 @@
-package com.evgenypavlov.spring.model.user;
+package com.evgenypavlov.spring.model.user.common_nterface;
 
-public abstract class User  {
+public abstract class User implements UserInterface {
+    //имплиментировал интерфейс
 
      private String firstName;
      private String lastName;

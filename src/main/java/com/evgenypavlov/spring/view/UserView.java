@@ -1,6 +1,6 @@
 package com.evgenypavlov.spring.view;
 
-import com.evgenypavlov.spring.model.user.User;
+import com.evgenypavlov.spring.model.user.common_nterface.User;
 
 import java.util.List;
 

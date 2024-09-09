@@ -1,4 +1,4 @@
-package com.evgenypavlov.spring.model.user.teachers;
+package com.evgenypavlov.spring.model.user.personal.teacher;
 
 import java.util.ArrayList;
 import java.util.Iterator;
