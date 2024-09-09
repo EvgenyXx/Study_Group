@@ -1,6 +1,6 @@
-package com.evgenypavlov.spring.model.data.teachers;
+package com.evgenypavlov.spring.model.user.teachers;
 
-import com.evgenypavlov.spring.model.data.User;
+import com.evgenypavlov.spring.model.user.User;
 
 public class Teachers extends User implements Comparable<Teachers> {
     private long teachersId;

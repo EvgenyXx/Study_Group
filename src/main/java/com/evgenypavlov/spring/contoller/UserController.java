@@ -1,6 +1,6 @@
 package com.evgenypavlov.spring.contoller;
 
-import com.evgenypavlov.spring.model.data.User;
+import com.evgenypavlov.spring.model.user.User;
 
 public interface UserController <T extends User> {
 

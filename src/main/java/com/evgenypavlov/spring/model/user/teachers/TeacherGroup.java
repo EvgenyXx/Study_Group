@@ -1,6 +1,4 @@
-package com.evgenypavlov.spring.model.data.teachers;
-
-import com.evgenypavlov.spring.model.data.UserComparator;
+package com.evgenypavlov.spring.model.user.teachers;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,7 +1,7 @@
-package com.evgenypavlov.spring.model.data.student;
+package com.evgenypavlov.spring.model.user.student;
 
 
-import com.evgenypavlov.spring.model.data.User;
+import com.evgenypavlov.spring.model.user.User;
 
 public class Student extends User implements Comparable<Student> {
 

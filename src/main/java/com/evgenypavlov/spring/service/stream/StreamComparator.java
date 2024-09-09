@@ -1,6 +1,6 @@
-package com.evgenypavlov.spring.model.data.stream;
+package com.evgenypavlov.spring.service.stream;
 
-import com.evgenypavlov.spring.model.data.student.StudyGroup;
+import com.evgenypavlov.spring.model.user.student.StudyGroup;
 
 import java.util.Comparator;
 

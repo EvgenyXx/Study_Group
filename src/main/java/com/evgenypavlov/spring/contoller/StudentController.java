@@ -1,9 +1,9 @@
 package com.evgenypavlov.spring.contoller;
 
-import com.evgenypavlov.spring.model.data.student.Student;
-import com.evgenypavlov.spring.model.data.student.StudyGroup;
-import com.evgenypavlov.spring.model.service.StudentGroupService;
-import com.evgenypavlov.spring.model.service.StreamService;
+import com.evgenypavlov.spring.model.user.student.Student;
+import com.evgenypavlov.spring.model.user.student.StudyGroup;
+import com.evgenypavlov.spring.service.StudentGroupService;
+import com.evgenypavlov.spring.service.StreamService;
 import com.evgenypavlov.spring.view.StudentView;
 
 import java.util.List;

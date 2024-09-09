@@ -1,7 +1,7 @@
 package com.evgenypavlov.spring.view;
 
 import com.evgenypavlov.spring.contoller.StudentController;
-import com.evgenypavlov.spring.model.data.student.Student;
+import com.evgenypavlov.spring.model.user.student.Student;
 
 import java.util.List;
 

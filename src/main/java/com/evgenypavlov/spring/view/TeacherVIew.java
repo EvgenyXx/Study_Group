@@ -1,6 +1,6 @@
 package com.evgenypavlov.spring.view;
 
-import com.evgenypavlov.spring.model.data.teachers.Teachers;
+import com.evgenypavlov.spring.model.user.teachers.Teachers;
 
 import java.util.List;
 

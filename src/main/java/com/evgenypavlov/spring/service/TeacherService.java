@@ -1,8 +1,8 @@
-package com.evgenypavlov.spring.model.service;
+package com.evgenypavlov.spring.service;
 
-import com.evgenypavlov.spring.model.data.UserComparator;
-import com.evgenypavlov.spring.model.data.teachers.TeacherGroup;
-import com.evgenypavlov.spring.model.data.teachers.Teachers;
+import com.evgenypavlov.spring.model.user.UserComparator;
+import com.evgenypavlov.spring.model.user.teachers.TeacherGroup;
+import com.evgenypavlov.spring.model.user.teachers.Teachers;
 
 import java.util.ArrayList;
 import java.util.Collections;

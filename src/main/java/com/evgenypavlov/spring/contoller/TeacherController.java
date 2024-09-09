@@ -1,7 +1,7 @@
 package com.evgenypavlov.spring.contoller;
 
-import com.evgenypavlov.spring.model.data.teachers.Teachers;
-import com.evgenypavlov.spring.model.service.TeacherService;
+import com.evgenypavlov.spring.model.user.teachers.Teachers;
+import com.evgenypavlov.spring.service.TeacherService;
 import com.evgenypavlov.spring.view.TeacherVIew;
 
 import java.util.List;

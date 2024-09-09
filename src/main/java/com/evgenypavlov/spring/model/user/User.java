@@ -1,4 +1,4 @@
-package com.evgenypavlov.spring.model.data;
+package com.evgenypavlov.spring.model.user;
 
 public abstract class User  {
 

@@ -1,4 +1,4 @@
-package com.evgenypavlov.spring.model.data.student;
+package com.evgenypavlov.spring.model.user.student;
 
 import java.util.ArrayList;
 import java.util.Iterator;
